@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form action="" method="get">
+    <!-- <form action="" method="GET"> -->
+    <div>
+        <label>Name:</label>
+        <input type="text" name="name" value=""><br>
+        <label>Surname:</label>
+        <input type="text" name="surname" value=""><br>
+        <label>Email:</label>
+        <input type="email" name="email" value=""><br>
+        <label>Phone nmber:</label>
+        <input type="tel" name="tel" value=""><br>
+        </div>
+        <div>
+            <label for="transportas">Rent:</label>
+            <input list="transportas" name="transportas" id="transportas">
+            <datalist id="transportas">
+                <option value="Automobilio nuoma">
+                <option value="Dviracio nuoma">
+                <option value="Paspirtuko nuoma">
+            </datalist>
+        </div>
+    <div>
+        <label>Select date from:</label>
+        <input type="date" value="2022-05-05">
+    </div>
+    <div>
+        <label>Select date till:</label>
+        <input type="date" value="2023-12-29">
+    </div>
+          <div><label for="browsers">Choose city:</label>
+              <input list="browsers" name="browsers" id="browsers">
+              <datalist id="browsers">
+                  <option value="Vilnius">
+                  <option value="Kaunas">
+                  <option value="Klaipeda">
+              </datalist></div>
+    <button type="button">Submit</button>
+</form>
+</body>
+</html>
