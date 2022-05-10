@@ -1,19 +1,25 @@
 #menu a:link,
 #menu a:visited {
-    color: blue;
+    color: white;
+    display: block;
+    background: black;
+    padding: 5px;
 }
 #menu a:hover {
     text-decoration: underline;
-    color: red;
+    color: black;
+    font-weight: bold;
+    background: silver;
 }
 div {
-    border: solid 1px blue;
+    border: solid 0px black;
     padding: 5px;
     width: 300px;
     margin: 5px;
+    display: block;
 }
 .div1 {
-    border: solid 1px blue;
+    border: solid 0px black;
     padding: 5px;
     width: 300px;
     margin: 5px;
