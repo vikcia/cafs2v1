@@ -11,6 +11,7 @@
     color: black;
     font-weight: bold;
     background: silver;
+    border: black solid 1px;
 }
 div {
     /*border: solid 0px black;*/
