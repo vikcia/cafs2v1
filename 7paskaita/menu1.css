@@ -4,9 +4,10 @@
     display: block;
     background: black;
     padding: 5px;
+    text-decoration: none;
 }
 #menu a:hover {
-    text-decoration: underline;
+    text-decoration: underline red 2px;
     color: black;
     font-weight: bold;
     background: silver;
@@ -16,7 +17,7 @@ div {
     padding: 5px;
     width: 300px;
     margin: 5px;
-    /*display: block;*/
+    display: inline-block;
 }
 .div1 {
     /*border: solid 0px black;*/
@@ -25,3 +26,4 @@ div {
     margin: 5px;
     font-weight: bold;
 }
+
