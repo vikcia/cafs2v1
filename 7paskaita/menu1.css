@@ -1,0 +1,21 @@
+#menu a:link,
+#menu a:visited {
+    color: blue;
+}
+#menu a:hover {
+    text-decoration: underline;
+    color: red;
+}
+div {
+    border: solid 1px blue;
+    padding: 5px;
+    width: 300px;
+    margin: 5px;
+}
+.div1 {
+    border: solid 1px blue;
+    padding: 5px;
+    width: 300px;
+    margin: 5px;
+    font-weight: bold;
+}
