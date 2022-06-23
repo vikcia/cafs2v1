@@ -26,6 +26,6 @@ class Movie {
         return `${this.name} year ${this.year} by ${this.director}`;
     }
     getProfit() {
-        return `'$'${this.income - this.budget}`;
+        return `$ income ${this.income - this.budget}`;
     }
 }
