@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body class="mx-5">
+    <h1 class="text-center">Hello, world!</h1>
+    <section id="alert">
+        <div class="card">
+            <div class="card-header">
+                Paspaudus mygtuką iškvieskite <span class="text-danger">
+                alert('Hello world!')
+            </span>
+            </div>
+            <div class="card-body col-md-12 text-center">
+                <a href="#" class="btn btn-primary" id="alertClick">Click on me</a>
+            </div>
+        </div>
+    </section>
+    <sectioin id="case">
+        <div class="card">
+            <div class="card-header">
+                Įvestai reikšmei priklusomai nuo paspausto mygtuko keičiame registrą (didelės/mažos raidės)
+            </div>
+                <div class="input-group p-3">
+                    <input id="inputCase" type="text" class="form-control" placeholder="Fill me in">
+                    <button id="btnToUpperCase" class="btn btn-outline-secondary" type="button">To Upper Cace</button>
+                    <button id="btnToLowerCase" class="btn btn-outline-secondary" type="button">To Lower Cace</button>
+                    <button id="btnFirstUpperCase" class="btn btn-outline-secondary" type="button">First Upper Cace</button>
+                    <button id="btnFirstLowerCase" class="btn btn-outline-secondary" type="button">First Lower Cace</button>
+            </div>
+        </div>
+    </sectioin>
+    <sectioin id="inputCheck">
+        <div class="card">
+            <div class="card-header">
+                Paspaudus mygtuką patikrinkite įvestas reikšmes ir jeigu reikia parodykite klaidų pranešimus
+                <ul class="pt-2">
+                    <li>element show/hide</li>
+                    <li>class add/remove</li>
+                </ul>
+            </div>
+                <div class="row">
+                    <form class="px-4 py-3">
+                        <div class="mb-3 col-12">
+                            <span class="col-2">Email</span>
+                                <input type="email" class="col-10 float-end" id="emailInput" placeholder="Enter Email" required>
+                                <span class="error text-danger col-10 float-end" aria-live="polite"></span>
+                        </div>
+                        <div class="mb-3 col-12">
+                            <span class="col-2">Phone Number</span>
+                            <input type="Phone" class="col-10 float-end" id="phoneInput" placeholder="Enter Phone Number" required minlength="8">
+                            <span class="error text-danger col-10 float-end" aria-live="polite"></span>
+                        </div>
+                        <div>
+                            <span class="col-2"></span>
+
+                            <div class="col-10">
+                                <button type="submit" class="btn btn-primary" id="btnSave">Save</button>
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </sectioin>
+    <section id="blockUnblock">
+        <div class="card">
+            <div class="card-header">
+                Paspaudus ant mygtuko užblokuoti/atblokuoti <span class="text-danger">input</span>
+            </div>
+            <div class="input-group p-3">
+                <button id="btnBlock" class="btn btn-outline-secondary border border-danger text-danger" type="button">Block</button>
+                <input id="inptBlockUnBlock" type="text" class="form-control" placeholder="I'm input! You can try to enter something...">
+                <button id="btnUnBlock" class="btn btn-outline-secondary border border-success text-success" type="button">UnBlock</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="card">
+            <div class="card-header">
+                Užvedus ant paveiksliuko pakeiskite jį
+                <ul>
+                    <li><a href="https://i.imgur.com/PLDVxza.jpg">https://i.imgur.com/PLDVxza.jpg</a> </li>
+                    <li><a href="https://i.imgur.com/0DElr0H.jpg">https://i.imgur.com/0DElr0H.jpg</a> </li>
+                </ul>
+            </div>
+            <div id="monkeyOne" class="carousel-item active">
+                <img id="img1" src="https://i.imgur.com/PLDVxza.jpg" class="rounded mx-auto d-block pt-4 pb-4" alt="...">
+            </div>
+            <div id="monkeyTwo" class="carousel-item">
+                <img id="img2"src="https://i.imgur.com/0DElr0H.jpg" class="rounded mx-auto d-block pt-4 pb-4" alt="...">
+            </div>
+        </div>
+    </section>
+    <section id="menu">
+        <div class="card">
+            <div class="card-header">
+                Paspaudus ant mygtuko turi "iškristi" meniu su punktais. Paspaudus punktą turi įvykti veiksmas
+            </div>
+            <div class="card-body row">
+                <div class="col-2"></div>
+                <div class="text-end col-10">
+                    <h6 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><span class="text-end text-muted">-Someone famous In <span class="text-muted"><em>Source Title</em></span></span></h6>
+                </div>
+                <div>
+                    <div class="bd-example">
+                        <div class="btn-group">
+                            <button id="cursors" type="button" class="btn btn-danger">Cursors</button>
+                            <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="visually-hidden">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a id="pointer" class="dropdown-item" href="#">pointer</a></li>
+                                <li><a id="text" class="dropdown-item" href="#">text</a></li>
+                                <li><a id="copy" class="dropdown-item" href="#">copy</a></li>
+                                <li><a id="foo" class="dropdown-item" href="#">foo</a></li>
+                                <li><a id="help" class="dropdown-item" href="#">help</a></li>
+                                <li><a id="crosshair" class="dropdown-item" href="#">crosshair</a></li>
+                            </ul>
+                        </div><!-- /btn-group -->
+                        <div class="btn-group">
+                            <button id="menuColors" type="button" class="btn btn-danger">Colors</button>
+                            <button id="dropdownColors" type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="visually-hidden">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a id="colorRed" class="dropdown-item">Red</a></li>
+                                <li><a id="colorGreen" class="dropdown-item">Green</a></li>
+                                <li><a id="colorBlue" class="dropdown-item">Blue</a></li>
+                            </ul>
+                        </div><!-- /btn-group -->
+                        <div class="btn-group">
+                            <button id="menuBorders" type="button" class="btn btn-danger">Borders</button>
+                            <button id="dropdownBorders" type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="visually-hidden">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a id="borderColorRed" class="dropdown-item">Red</a></li>
+                                <li><a id="borderColorGreen" class="dropdown-item">Green</a></li>
+                                <li><a id="borderColorBlue" class="dropdown-item">Blue</a></li>
+                            </ul>
+                        </div><!-- /btn-group -->
+                        <div class="btn-group">
+                            <button id="btnReset" type="reset" class="btn btn-success">Reset all</button>
+                            </button>
+                        </div><!-- /btn-group -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="modal">
+        <div class="card">
+            <div class="card-header">
+                Paspaudus mygtuką parodykite informaciją apie save modaliniame lange
+            </div>
+            <div class="card-body text-center">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Launch modal
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Hello from Viktoras
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
