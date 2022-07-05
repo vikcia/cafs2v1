@@ -5,7 +5,7 @@
     <title>Title</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
-<body class="mx-5">
+<body id="idBody" class="mx-5">
     <h1 class="text-center">Hello, world!</h1>
     <section id="alert">
         <div class="card">
@@ -43,7 +43,7 @@
                 </ul>
             </div>
                 <div class="row">
-                    <form class="px-4 py-3">
+                    <div class="px-4 py-3">
                         <div class="mb-3 col-12">
                             <span class="col-2">Email</span>
                                 <input type="email" class="col-10 float-end" id="emailInput" placeholder="Enter Email" required>
@@ -62,7 +62,7 @@
 
                             </div>
                         </div>
-                    </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -103,9 +103,14 @@
             </div>
             <div class="card-body row">
                 <div class="col-2"></div>
-                <div class="text-end col-10">
-                    <h6 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><span class="text-end text-muted">-Someone famous In <span class="text-muted"><em>Source Title</em></span></span></h6>
-                </div>
+                <figure class="text-end col-10" id="blockquoteSet">
+                    <blockquote class="blockquote">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                        Someone famous in <cite title="Source Title">Source Title</cite>
+                    </figcaption>
+                </figure>
                 <div>
                     <div class="bd-example">
                         <div class="btn-group">
@@ -114,12 +119,12 @@
                                 <span class="visually-hidden">Toggle Dropdown</span>
                             </button>
                             <ul class="dropdown-menu">
-                                <li><a id="pointer" class="dropdown-item" href="#">pointer</a></li>
-                                <li><a id="text" class="dropdown-item" href="#">text</a></li>
-                                <li><a id="copy" class="dropdown-item" href="#">copy</a></li>
-                                <li><a id="foo" class="dropdown-item" href="#">foo</a></li>
-                                <li><a id="help" class="dropdown-item" href="#">help</a></li>
-                                <li><a id="crosshair" class="dropdown-item" href="#">crosshair</a></li>
+                                <li><a id="cursorPointer" class="dropdown-item">pointer</a></li>
+                                <li><a id="cursorText" class="dropdown-item">text</a></li>
+                                <li><a id="cursorCopy" class="dropdown-item">copy</a></li>
+                                <li><a id="cursorFoo" class="dropdown-item">foo</a></li>
+                                <li><a id="cursorHelp" class="dropdown-item">help</a></li>
+                                <li><a id="cursorCrosshair" class="dropdown-item">crosshair</a></li>
                             </ul>
                         </div><!-- /btn-group -->
                         <div class="btn-group">

@@ -59,7 +59,11 @@ function emailPhoneInpt() {
         emailError.textContent = 'Please check email';
         phoneError.textContent = 'Please check phone number';
         return false;
-    } else {
+    } if (emailInpt.validity.valueMissing || phoneInpt.validity.valueMissing) {
+        emailError.textContent = 'Please check email';
+        phoneError.textContent = 'Please check phone number';
+        return false;
+    }else {
         alert("Jūsų užklausa išsiųsta");
     }
 }
@@ -94,12 +98,12 @@ let img1 = document.querySelector("#img1")
 let img2 = document.querySelector("#img2")
 
 
-img1.addEventListener("pointerover", e => {
+img1.addEventListener("mouseover", e => {
     if(monkeyTwo)
     monkeyTwo.className = "carousel-item active";
     monkeyOne.className = "carousel-item";
 })
-img2.addEventListener("pointerover", e => {
+img2.addEventListener("mouseover", e => {
     if(monkeyOne)
         monkeyOne.className = "carousel-item active";
     monkeyTwo.className = "carousel-item";
@@ -108,56 +112,79 @@ img2.addEventListener("pointerover", e => {
 // ------------------------------------------------------------
 
 let btnReset = document.querySelector("#btnReset");
+let idBody = document.querySelector("#idBody")
 
-let menuColors = document.querySelector("#menuColors")
-let dropdownColors = document.querySelector("#dropdownColors")
+let cursorPointer = document.querySelector("#cursorPointer")
+let cursorText = document.querySelector("#cursorText")
+let cursorCopy = document.querySelector("#cursorCopy")
+let cursorFoo = document.querySelector("#cursorFoo")
+let cursorHelp = document.querySelector("#cursorHelp")
+let cursorCrosshair = document.querySelector("#cursorCrosshair")
+
+cursorPointer.addEventListener("click", e => {
+    if(cursorPointer)
+        idBody.style.cursor = "pointer"
+})
+cursorText.addEventListener("click", e => {
+    if(cursorText)
+        idBody.style.cursor = "text"
+})
+cursorCopy.addEventListener("click", e => {
+    if(cursorCopy)
+        idBody.style.cursor = "copy"
+})
+cursorFoo.addEventListener("click", e => {
+    if(cursorFoo)
+        idBody.style.cursor = "foo"
+})
+cursorHelp.addEventListener("click", e => {
+    if(cursorHelp)
+        idBody.style.cursor = "help"
+})
+cursorCrosshair.addEventListener("click", e => {
+    if(cursorCrosshair)
+        idBody.style.cursor = "crosshair"
+})
+
 let colorRed = document.querySelector("#colorRed")
 let colorGreen = document.querySelector("#colorGreen")
 let colorBlue = document.querySelector("#colorBlue")
 
 colorRed.addEventListener("click", e => {
     if(colorRed)
-        menuColors.style.backgroundColor = "red"
-        dropdownColors.style.backgroundColor = "red"
+        blockquoteSet.style.color = "red"
 })
 colorGreen.addEventListener("click", e => {
     if(colorGreen)
-        menuColors.style.backgroundColor = "green"
-        dropdownColors.style.backgroundColor = "green"
+        blockquoteSet.style.color = "green"
 })
 colorBlue.addEventListener("click", e => {
     if(colorBlue)
-        menuColors.style.backgroundColor = "blue"
-        dropdownColors.style.backgroundColor = "blue"
+        blockquoteSet.style.color = "blue"
 })
 
-let menuBorders = document.querySelector("#menuBorders")
-let dropdownBorders = document.querySelector("#dropdownBorders")
 let borderColorRed = document.querySelector("#borderColorRed")
 let borderColorGreen = document.querySelector("#borderColorGreen")
 let borderColorBlue = document.querySelector("#borderColorBlue")
+let blockquoteSet = document.querySelector("#blockquoteSet")
 
 borderColorRed.addEventListener("click", e => {
     if(borderColorRed)
-        menuBorders.style.borderColor = "red"
-    dropdownBorders.style.borderColor = "red"
+        blockquoteSet.style.border = "solid red"
 })
 borderColorGreen.addEventListener("click", e => {
     if(borderColorGreen)
-        menuBorders.style.borderColor = "green"
-    dropdownBorders.style.borderColor = "green"
+        blockquoteSet.style.border = "solid green"
 })
 borderColorBlue.addEventListener("click", e => {
     if(borderColorBlue)
-        menuBorders.style.borderColor = "blue"
-    dropdownBorders.style.borderColor = "blue"
+        blockquoteSet.style.border = "solid blue"
 })
 
 btnReset.addEventListener("click", e => {
     if(btnReset)
-        menuColors.style.backgroundColor = ""
-        dropdownColors.style.backgroundColor = ""
-        menuBorders.style.borderColor = ""
-        dropdownBorders.style.borderColor = ""
+        blockquoteSet.style.color = ""
+        blockquoteSet.style.border = ""
+        idBody.style.cursor = ""
 })
 
