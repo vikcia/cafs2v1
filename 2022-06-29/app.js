@@ -55,15 +55,19 @@ function emailPhoneInpt() {
     const emailInpt = document.querySelector("#emailInput");
     const phoneInpt = document.querySelector("#phoneInput");
 
-    if (emailInpt.validity.valueMissing || phoneInpt.validity.valueMissing) {
+    if (emailInpt.validity.valueMissing) {
         emailError.textContent = 'Please check email';
+    }
+    if (phoneInpt.validity.valueMissing) {
         phoneError.textContent = 'Please check phone number';
-        return false;
-    } if (emailInpt.validity.valueMissing || phoneInpt.validity.valueMissing) {
-        emailError.textContent = 'Please check email';
-        phoneError.textContent = 'Please check phone number';
-        return false;
-    }else {
+    }
+    if (!emailInpt.validity.valueMissing) {
+        emailError.textContent = '';
+    }
+    if (!phoneInpt.validity.valueMissing) {
+        phoneError.textContent = '';
+    }
+    else {
         alert("Jūsų užklausa išsiųsta");
     }
 }
@@ -94,7 +98,7 @@ if (btnUnBlock) {
 
 let monkeyOne = document.querySelector("#monkeyOne")
 let monkeyTwo = document.querySelector("#monkeyTwo")
-let img1 = document.querySelector("#img1")
+let img1 = document.querySelector("img")
 let img2 = document.querySelector("#img2")
 
 
@@ -103,7 +107,7 @@ img1.addEventListener("mouseover", e => {
     monkeyTwo.className = "carousel-item active";
     monkeyOne.className = "carousel-item";
 })
-img2.addEventListener("mouseover", e => {
+img2.addEventListener("mouseout", e => {
     if(monkeyOne)
         monkeyOne.className = "carousel-item active";
     monkeyTwo.className = "carousel-item";
