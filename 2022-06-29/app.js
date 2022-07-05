@@ -80,7 +80,7 @@ if (checkInpt) {
         if (!emailInpt.validity.valueMissing) {
             return emailError.textContent = '';
         } else {
-            return
+            return true
         }
     });
 }
