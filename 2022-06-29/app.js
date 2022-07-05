@@ -55,19 +55,11 @@ function emailPhoneInpt() {
     const emailInpt = document.querySelector("#emailInput");
     const phoneInpt = document.querySelector("#phoneInput");
 
-    if (emailInpt.validity.valueMissing) {
+    if (emailInpt.validity.valueMissing || phoneInpt.validity.valueMissing) {
         emailError.textContent = 'Please check email';
-    }
-    if (phoneInpt.validity.valueMissing) {
         phoneError.textContent = 'Please check phone number';
-    }
-    if (!emailInpt.validity.valueMissing) {
-        emailError.textContent = '';
-    }
-    if (!phoneInpt.validity.valueMissing) {
-        phoneError.textContent = '';
-    }
-    else {
+        return false;
+    } else {
         alert("Jūsų užklausa išsiųsta");
     }
 }
