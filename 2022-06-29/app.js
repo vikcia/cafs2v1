@@ -46,24 +46,53 @@ if (btnFirstLowerCase) {
 
 // --------------------------------------------------
 
+// if (checkInpt) {
+//     checkInpt.addEventListener('click', function (event) {
+//         if (emailInpt.validity.valueMissing || phoneInpt.validity.valueMissing) {
+//             emailError.textContent = 'Please check email';
+//             phoneError.textContent = 'Please check phone number';
+//             return false;
+//         } else {
+//             alert("Jūsų užklausa išsiųsta");
+//         }
+//     });
+// }
+
 const checkInpt = document.querySelector("#btnSave");
 const phoneError = document.querySelector('#phoneInput + span.error');
 const emailError = document.querySelector('#emailInput + span.error');
+const emailInpt = document.querySelector("#emailInput");
+const phoneInpt = document.querySelector("#phoneInput");
 
-function emailPhoneInpt() {
-
-    const emailInpt = document.querySelector("#emailInput");
-    const phoneInpt = document.querySelector("#phoneInput");
-
-    if (emailInpt.validity.valueMissing || phoneInpt.validity.valueMissing) {
-        emailError.textContent = 'Please check email';
-        phoneError.textContent = 'Please check phone number';
-        return false;
-    } else {
-        alert("Jūsų užklausa išsiųsta");
-    }
+if (checkInpt) {
+    checkInpt.addEventListener('click', function (event) {
+        if (emailInpt.validity.valueMissing || phoneInpt.validity.valueMissing) {
+            emailError.textContent = 'Please check email';
+            phoneError.textContent = 'Please check phone number';
+            return false;
+        } else {
+            alert("Jūsų užklausa išsiųsta");
+        }
+    });
 }
-checkInpt.addEventListener('click', emailPhoneInpt)
+if (checkInpt) {
+    checkInpt.addEventListener('click', function (event) {
+        if (!emailInpt.validity.valueMissing) {
+            return emailError.textContent = '';
+        } else {
+            return
+        }
+    });
+}
+if (checkInpt) {
+    checkInpt.addEventListener('click', function (event) {
+        if (!phoneInpt.validity.valueMissing) {
+            return phoneError.textContent = '';
+        } else {
+            return
+        }
+    });
+}
 
 // -------------------------------------------------------------------
 
