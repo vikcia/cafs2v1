@@ -15,9 +15,8 @@ app.get('/os', (req, res) => {
 })
 app.get('/ram', (req, res) => {
     let bytesToMegabytes = (os.totalmem()) / (1024 * 1024);
-    // res.send('Total megabytes')
-    // res.send([bytesToMegabytes])
-    res.send([{Megabytes: [bytesToMegabytes]},])
+    let numberToFixed = bytesToMegabytes.toFixed(0);
+    res.send([{Megabytes: [numberToFixed,'MB']},])
 })
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
