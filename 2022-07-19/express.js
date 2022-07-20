@@ -7,8 +7,10 @@ app.get('/', (req, res) => {
     res.send(os.cpus()[0])
 })
 app.get('/cpu', (req, res) => {
-    res.send(os.cpus()[0].model)
-    res.send(os.cpus()[0].speed)
+    let cpusModel = os.cpus()[0].model;
+    let cpusSpeed = os.cpus()[0].speed;
+    let getModelSpeed = 'Model: '+ cpusModel + ' Speed:'+ cpusSpeed;
+    res.send(getModelSpeed)
 })
 app.get('/os', (req, res) => {
     res.send(os.type())
