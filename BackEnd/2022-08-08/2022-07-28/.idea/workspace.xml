@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9c1b9451-d23c-42b5-bb96-f1c208b2b1b3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../2022-07-19/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022-07-19/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022-07-19/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022-07-20/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022-07-20/public/javascripts/appWheaterForecast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022-07-20/public/javascripts/indexWheaterscript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022-07-20/services/MeteoApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2022-07-20/views/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../API_test/data-api/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WeatherApp/public/indexWheaterscript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-05-17/task1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-05-17/task1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-05-19/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-05-19/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-05-25/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-05-25/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-05-25/suma.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-05-25/suma.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-05-26/TEST.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-05-26/TEST.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-05-26/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-05-26/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-05-26/operators.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-05-26/operators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-05-26/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-05-26/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-05-30/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-05-30/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-05-30/task1.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-05-30/task1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-05-31/arrow.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-05-31/arrow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-05-31/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-05-31/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-05-31/recursion.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-05-31/recursion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-05-31/task.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-05-31/task.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-06-01/loop.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-06-01/loop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-06-01/task1.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-06-01/task1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-06-01/task3.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-06-01/task3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-06-02/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-06-02/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-06-02/task1.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-06-02/task1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-06-02/task2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-06-02/task2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-06-06/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-06-06/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-06-06/task1.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-06-06/task1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-06-08/DOM/DOM.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-06-08/DOM/DOM.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-06-08/DOM/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-06-08/DOM/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-06-08/DOM/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-06-08/DOM/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-06-13/calculator.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-06-13/calculator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-06-13/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-06-13/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-06-13/indexCalculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-06-13/indexCalculator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-06-13/task1.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-06-13/task1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-06-16/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-06-16/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-06-16/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-06-16/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-06-16/task1.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-06-16/task1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-06-16/task2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-06-16/task2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-06-20/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-06-20/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-06-20/input.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-06-20/input.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-06-22/class.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-06-22/class.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-06-23/class.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-06-23/class.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-06-23/task/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-06-23/task/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-06-23/task/class.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-06-23/task/class.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-06-23/task/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-06-23/task/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-06-27/shop/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-06-27/shop/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-06-27/shop/class.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-06-27/shop/class.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-06-27/shop/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-06-27/shop/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-06-29/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-06-29/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-07-11/ajax/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-07-11/ajax/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-07-11/ajax/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-07-11/ajax/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-07-13/nodejs/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-07-13/nodejs/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-07-13/nodejs/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-07-13/nodejs/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-07-13/nodejsexmple/Movie.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-07-13/nodejsexmple/Movie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-07-13/nodejsexmple/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-07-13/nodejsexmple/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2022-07-14/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../2022-07-14/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4_task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../4_task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7paskaita/menu1.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../7paskaita/menu1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7paskaita/menu1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../7paskaita/menu1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8paskaita/flex.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../8paskaita/flex.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8paskaita/flex.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../8paskaita/flex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9paskaita/task4.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../9paskaita/task4.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Savarankiskas/Failai studentams/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Savarankiskas/Failai studentams/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Strings/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Strings/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Strings/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Strings/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bootstrap/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../bootstrap/public/mix-manifest.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2CtdwcnXUNk7DFSexdfp5JVsdYz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/codeacademygithub/BackEnd",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c1b9451-d23c-42b5-bb96-f1c208b2b1b3" name="Changes" comment="" />
+      <created>1659626055036</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659626055036</updated>
+      <workItem from="1659626056433" duration="11000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
