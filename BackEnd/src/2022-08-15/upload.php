@@ -69,14 +69,16 @@ function generateRandomString($length = 10) {
 
             $name = isset($_POST["name"]) ? $_POST["name"] : "";
             $surName = isset($_POST["surName"]) ? $_POST["surName"] : "";
-            $C = isset($_POST["C++"]) ? $_POST["C++"] : "C++";
-            $PHP = isset($_POST["PHP"]) ? $_POST["PHP"] : "PHP";
-            $Python = isset($_POST["Python"]) ? $_POST["Python"] : "Python";
+            $city = isset($_POST["city"]) ? $_POST["city"] : "";
+            $C = isset($_POST["C++"]) ? $_POST["C++"] : "";
+            $PHP = isset($_POST["PHP"]) ? $_POST["PHP"] : "";
+            $Python = isset($_POST["Python"]) ? $_POST["Python"] : "";
             $info = isset($_POST["info"]) ? $_POST["info"] : "";
             $colorBlack = imagecolorallocate($image, 0, 0, 0);
 
             imagettftext($image, 20, 0, 320, 150, $colorBlack, $fontPath, $name);
             imagettftext($image, 20, 0, 320, 235, $colorBlack, $fontPath, $surName);
+            imagettftext($image, 20, 0, 320, 320, $colorBlack, $fontPath, $city);
             imagettftext($image, 25, 0, 320, 405, $colorBlack, $fontPath, $C);
             imagettftext($image, 25, 0, 390, 405, $colorBlack, $fontPath, $PHP);
             imagettftext($image, 25, 0, 480, 405, $colorBlack, $fontPath, $Python);

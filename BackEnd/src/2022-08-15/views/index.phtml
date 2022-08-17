@@ -1,3 +1,6 @@
+<?php
+require_once 'functions.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,39 +34,38 @@
                 <div>
                     <div class="form-group col-auto">
                         <label for="exampleFormControlSelect1" class="col-form-label">Miestas</label>
-                        <select class="form-control" id="exampleFormControlSelect1">
-                            <option>Vilnius</option>
-                            <option>Kaunas</option>
-                            <option>Klaipėda</option>
+                        <select class="form-control" name="city">
+                            <option value="" require>Pasirinkite miestą</option>
+                            <?php echo optionCities($cities); ?>
                         </select>
                     </div>
                 </div>
                 <h2>Programavimo kalba</h2>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="cValue" value="option1" checked>
-                    <label name="C++" class="form-check-label" for="C++">
+                    <input class="form-check-input" type="checkbox" id="cValue" value="C++" name="C++" checked>
+                    <label class="form-check-label" for="C++">
                         C++
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="phpValue" value="option2">
-                    <label name="PHP" class="form-check-label" for="PHP">
+                    <input class="form-check-input" type="checkbox" id="phpValue" value="PHP" name="PHP">
+                    <label class="form-check-label" for="PHP">
                         PHP
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="pythonValue" value="option3">
-                    <label name="Python" class="form-check-label" for="Python">
+                    <input class="form-check-input" type="checkbox" id="pythonValue" value="Python" name="Python">
+                    <label class="form-check-label" for="Python">
                         Python
                     </label>
                 </div>
                 <h2>Papildoma informacija</h2>
                 <div class="form-floating col-6">
-                    <textarea name="info" class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <textarea name="info" class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"></textarea>
                     <label name="info" for="floatingTextarea2">Pvz.: turite C++ programavimo patirties</label>
                 </div>
                 <div>
-                    <input type="file" name="some-file-name" />
+                    <input type="file" name="some-file-name" required/>
                 </div>
                 <div class="col-6">
                     <button class="btn btn-primary" type="submit" name="Submit">Siųsti</button>
